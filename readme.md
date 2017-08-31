@@ -1,12 +1,12 @@
-##Optisizer
+# Optisizer
 The Optisizer is a simple shell script that batch resizes and optimizes images. It accepts width, height, or both width and height for resizing, and will retain aspect ratio if only one edge is selected.
 
-###Dependencies
+## Dependencies
 The Optisizer should be run on OSX with [ImageMagick](http://www.imagemagick.org/script/index.php) and [ImageOptim](https://imageoptim.com) installed.
 
 If you use Brew, just run `brew install imagemagick` to install the ImageMagick dependencies.
 
-###Install & Use
+## Install & Use
 I suggest putting this in a hidden folder in your home directory and making an alias to it. Personally, I call my bash scripts folder `.scripts`.
 
 From there, alias Optisizer by executing `alias optisizer='bash ~/.scripts/optisizer.sh'` if you're using Bash, or `alias optisizer='zsh ~/.scripts/optisizer.sh'` if you use zsh as your default shell.
